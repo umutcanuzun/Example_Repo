@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/mavros_nodes/mavros_nodes.egg-info/PKG-INFO
+writing dependency_links to ../../build/mavros_nodes/mavros_nodes.egg-info/dependency_links.txt
+writing entry points to ../../build/mavros_nodes/mavros_nodes.egg-info/entry_points.txt
+writing requirements to ../../build/mavros_nodes/mavros_nodes.egg-info/requires.txt
+writing top-level names to ../../build/mavros_nodes/mavros_nodes.egg-info/top_level.txt
+reading manifest file '../../build/mavros_nodes/mavros_nodes.egg-info/SOURCES.txt'
+writing manifest file '../../build/mavros_nodes/mavros_nodes.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mavros_nodes/node1.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+running install
+running install_lib
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/node1.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/node1.py to node1.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mavros_nodes/mavros_nodes.egg-info to /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes-0.0.0-py3.10.egg-info
+running install_scripts
+Installing test_node script to /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/mavros_nodes
+writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/mavros_nodes/install.log'

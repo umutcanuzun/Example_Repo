@@ -1,0 +1,26 @@
+[0.742s] Invoking command in '/home/umut_ubuntu/ros2_ws/src/mavros_nodes': PYTHONPATH=/home/umut_ubuntu/ros2_ws/build/mavros_nodes/prefix_override:/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mavros_nodes build --build-base /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build install --record /home/umut_ubuntu/ros2_ws/build/mavros_nodes/install.log --single-version-externally-managed
+[0.956s] running egg_info
+[0.956s] writing ../../build/mavros_nodes/mavros_nodes.egg-info/PKG-INFO
+[0.956s] writing dependency_links to ../../build/mavros_nodes/mavros_nodes.egg-info/dependency_links.txt
+[0.957s] writing entry points to ../../build/mavros_nodes/mavros_nodes.egg-info/entry_points.txt
+[0.957s] writing requirements to ../../build/mavros_nodes/mavros_nodes.egg-info/requires.txt
+[0.957s] writing top-level names to ../../build/mavros_nodes/mavros_nodes.egg-info/top_level.txt
+[0.958s] reading manifest file '../../build/mavros_nodes/mavros_nodes.egg-info/SOURCES.txt'
+[0.959s] writing manifest file '../../build/mavros_nodes/mavros_nodes.egg-info/SOURCES.txt'
+[0.959s] running build
+[0.959s] running build_py
+[0.959s] copying mavros_nodes/node1.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[0.959s] running install
+[0.960s] running install_lib
+[0.960s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.960s]   warnings.warn(
+[0.961s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/node1.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[0.962s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/node1.py to node1.cpython-310.pyc
+[0.962s] running install_data
+[0.962s] running install_egg_info
+[0.964s] removing '/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[0.964s] Copying ../../build/mavros_nodes/mavros_nodes.egg-info to /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes-0.0.0-py3.10.egg-info
+[0.965s] running install_scripts
+[0.982s] Installing test_node script to /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/mavros_nodes
+[0.982s] writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/mavros_nodes/install.log'
+[1.010s] Invoked command in '/home/umut_ubuntu/ros2_ws/src/mavros_nodes' returned '0': PYTHONPATH=/home/umut_ubuntu/ros2_ws/build/mavros_nodes/prefix_override:/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mavros_nodes build --build-base /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build install --record /home/umut_ubuntu/ros2_ws/build/mavros_nodes/install.log --single-version-externally-managed

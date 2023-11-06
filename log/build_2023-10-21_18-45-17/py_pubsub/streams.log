@@ -1,0 +1,43 @@
+[0.708s] Invoking command in '/home/umut_ubuntu/ros2_ws/src/py_pubsub': PYTHONPATH=/home/umut_ubuntu/ros2_ws/build/py_pubsub/prefix_override:/home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/umut_ubuntu/ros2_ws/build/py_pubsub/build install --record /home/umut_ubuntu/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed
+[0.939s] running egg_info
+[0.939s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.940s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.940s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.940s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.940s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.940s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.940s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.942s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.942s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.943s] running build_py
+[0.943s] creating /home/umut_ubuntu/ros2_ws/build/py_pubsub/build
+[0.943s] creating /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib
+[0.943s] creating /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.943s] copying py_pubsub/subscriber_member_function.py -> /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.944s] copying py_pubsub/__init__.py -> /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.944s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.944s]   warnings.warn(
+[0.944s] copying py_pubsub/publisher_member_function.py -> /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.944s] running install
+[0.944s] running install_lib
+[0.945s] creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.945s] copying /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.945s] copying /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.945s] copying /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.945s] byte-compiling /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.946s] byte-compiling /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.946s] byte-compiling /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.946s] running install_data
+[0.947s] creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index
+[0.947s] creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.947s] creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.947s] copying resource/py_pubsub -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.947s] copying package.xml -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.947s] running install_egg_info
+[0.948s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.949s] running install_scripts
+[0.966s] Installing listener script to /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.966s] Installing talker script to /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.966s] writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/py_pubsub/install.log'
+[0.993s] Invoked command in '/home/umut_ubuntu/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/umut_ubuntu/ros2_ws/build/py_pubsub/prefix_override:/home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/umut_ubuntu/ros2_ws/build/py_pubsub/build install --record /home/umut_ubuntu/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed

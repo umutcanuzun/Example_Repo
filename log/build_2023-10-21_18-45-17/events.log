@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000313] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000506] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000715] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000773] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099237] (-) TimerEvent: {}
+[0.199621] (-) TimerEvent: {}
+[0.299966] (-) TimerEvent: {}
+[0.400313] (-) TimerEvent: {}
+[0.500732] (-) TimerEvent: {}
+[0.601114] (-) TimerEvent: {}
+[0.701487] (-) TimerEvent: {}
+[0.705900] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/umut_ubuntu/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/umut_ubuntu/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/umut_ubuntu/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'tr:en', 'USER': 'umut_ubuntu', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/umut_ubuntu', 'OLDPWD': '/home/umut_ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '1881', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'umut_ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'umut_ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/umut_ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Umut-UbuntuPC:@/tmp/.ICE-unix/1645,unix/Umut-UbuntuPC:/tmp/.ICE-unix/1645', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7b149ec9_1a27_489c_93d9_84730be08e44', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'tr_TR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RHG5C2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.434', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/umut_ubuntu/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/umut_ubuntu/ros2_ws/build/py_pubsub/prefix_override:/home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.801631] (-) TimerEvent: {}
+[0.901995] (-) TimerEvent: {}
+[0.939686] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.940160] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[0.940403] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.940591] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.940776] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.940916] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.941026] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.941176] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.942549] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.943052] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.943468] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.943651] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.943809] (py_pubsub) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/py_pubsub/build\n'}
+[0.943956] (py_pubsub) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib\n'}
+[0.944073] (py_pubsub) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.944190] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.944307] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.944469] (py_pubsub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.944684] (py_pubsub) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.944808] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[0.944924] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.945034] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.945449] (py_pubsub) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.945590] (py_pubsub) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.945760] (py_pubsub) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.945886] (py_pubsub) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[0.946190] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[0.946548] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.946706] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[0.946924] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.947383] (py_pubsub) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index\n'}
+[0.947543] (py_pubsub) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[0.947663] (py_pubsub) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.947780] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[0.947998] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/umut_ubuntu/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[0.948150] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.948940] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[0.949687] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.966383] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.966716] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/umut_ubuntu/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.966878] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/py_pubsub/install.log'\n"}
+[0.993574] (py_pubsub) CommandEnded: {'returncode': 0}
+[1.002413] (-) TimerEvent: {}
+[1.071327] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[1.072259] (-) EventReactorShutdown: {}

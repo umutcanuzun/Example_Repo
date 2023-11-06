@@ -1,0 +1,27 @@
+[1.117s] Invoking command in '/home/umut_ubuntu/ros2_ws/src/py_srvcli': PYTHONPATH=/home/umut_ubuntu/ros2_ws/build/py_srvcli/prefix_override:/home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/umut_ubuntu/ros2_ws/build/py_srvcli/build install --record /home/umut_ubuntu/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.444s] running egg_info
+[1.445s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.445s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.446s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.446s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.446s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.448s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.449s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.449s] running build
+[1.449s] running build_py
+[1.450s] copying py_srvcli/client_member_function.py -> /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[1.450s] running install
+[1.450s] running install_lib
+[1.450s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.450s]   warnings.warn(
+[1.452s] copying /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[1.453s] byte-compiling /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[1.454s] running install_data
+[1.454s] running install_egg_info
+[1.456s] removing '/home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.457s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.458s] running install_scripts
+[1.484s] Installing client script to /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.484s] Installing service script to /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.485s] writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/py_srvcli/install.log'
+[1.519s] Invoked command in '/home/umut_ubuntu/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/umut_ubuntu/ros2_ws/build/py_srvcli/prefix_override:/home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/umut_ubuntu/ros2_ws/build/py_srvcli/build install --record /home/umut_ubuntu/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

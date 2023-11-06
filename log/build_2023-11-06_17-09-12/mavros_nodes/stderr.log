@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/imu_data.py", line 20
+    self.get_logger().info(f"Linear Acceleration: x={msg.linear_acceleration.x}, y={msg.linear_acceleration.y}, 
+                           ^
+SyntaxError: unterminated string literal (detected at line 20)
+

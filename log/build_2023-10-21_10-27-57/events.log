@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000917] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000992] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.001045] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.099632] (-) TimerEvent: {}
+[0.115958] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.199815] (-) TimerEvent: {}
+[0.300380] (-) TimerEvent: {}
+[0.400775] (-) TimerEvent: {}
+[0.501127] (-) TimerEvent: {}
+[0.601730] (-) TimerEvent: {}
+[0.692790] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.702143] (-) TimerEvent: {}
+[0.703471] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.704308] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/umut_ubuntu/ros2_ws/build/turtlesim', '--', '-j12', '-l12'], 'cwd': '/home/umut_ubuntu/ros2_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'tr:en'), ('USER', 'umut_ubuntu'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/umut_ubuntu'), ('OLDPWD', '/home/umut_ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('SYSTEMD_EXEC_PID', '1689'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'umut_ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'umut_ubuntu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/umut_ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Umut-UbuntuPC:@/tmp/.ICE-unix/1645,unix/Umut-UbuntuPC:/tmp/.ICE-unix/1645'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d70fc405_ddbb_4f16_bb17_f6dc20ecc628'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'tr_TR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RHG5C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.301'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/umut_ubuntu/ros2_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.802271] (-) TimerEvent: {}
+[0.892164] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.902395] (-) TimerEvent: {}
+[0.910167] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.927948] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.955507] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.958569] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.961880] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.965659] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.966093] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.975073] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.991631] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[1.002519] (-) TimerEvent: {}
+[1.014523] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[1.020100] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[1.020376] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target draw_square\n'}
+[1.020592] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtle_teleop_key\n'}
+[1.056977] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__py\n'}
+[1.066141] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[1.102691] (-) TimerEvent: {}
+[1.105102] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[1.105511] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[1.106782] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[1.107128] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[1.108283] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[1.110270] (turtlesim) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[1.112041] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[1.112386] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[1.202820] (-) TimerEvent: {}
+[1.303277] (-) TimerEvent: {}
+[1.333677] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/msg/_pose_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.334052] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.334241] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.334387] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.334540] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.334687] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.334835] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_spawn_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.334987] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.335129] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.335274] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_kill_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.335423] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.335568] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.335713] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.335857] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.336001] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.336145] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.336291] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/msg/_color_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.336462] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.336609] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.336754] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.336898] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_set_pen_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.337049] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.337191] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.337336] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.337503] (turtlesim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c:11:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Knumpy/ndarrayobject.h: B\xc3\xb6yle bir dosya ya da dizin yok\n'}
+[1.337666] (turtlesim) StderrLine: {'line': b'   11 | #include \x1b[01;31m\x1b[K"numpy/ndarrayobject.h"\x1b[m\x1b[K\n'}
+[1.337813] (turtlesim) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.337977] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.338130] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.338274] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.338415] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.338561] (turtlesim) StderrLine: {'line': b'compilation terminated.\n'}
+[1.342537] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:146: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o] Error 1\n'}
+[1.342874] (turtlesim) StderrLine: {'line': b'gmake[2]: *** Bitmemi\xc5\x9f i\xc5\x9fler i\xc3\xa7in bekliyor....\n'}
+[1.343004] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:104: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o] Error 1\n'}
+[1.343123] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:76: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o] Error 1\n'}
+[1.343232] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:118: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o] Error 1\n'}
+[1.343316] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:174: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o] Error 1\n'}
+[1.343465] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:90: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o] Error 1\n'}
+[1.343552] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:160: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o] Error 1\n'}
+[1.343640] (turtlesim) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:132: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o] Error 1\n'}
+[1.344040] (turtlesim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:483: CMakeFiles/turtlesim__rosidl_generator_py.dir/all] Error 2\n'}
+[1.344138] (turtlesim) StderrLine: {'line': b'gmake[1]: *** Bitmemi\xc5\x9f i\xc5\x9fler i\xc3\xa7in bekliyor....\n'}
+[1.362304] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.363207] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.363523] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.363760] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.367865] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.368506] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.368982] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/umut_ubuntu/ros2_ws/build/my_package/build', 'install', '--record', '/home/umut_ubuntu/ros2_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/umut_ubuntu/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'tr:en', 'USER': 'umut_ubuntu', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/umut_ubuntu', 'OLDPWD': '/home/umut_ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '1689', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'umut_ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'umut_ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/umut_ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Umut-UbuntuPC:@/tmp/.ICE-unix/1645,unix/Umut-UbuntuPC:/tmp/.ICE-unix/1645', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d70fc405_ddbb_4f16_bb17_f6dc20ecc628', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'tr_TR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RHG5C2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.301', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/umut_ubuntu/ros2_ws/build/my_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/umut_ubuntu/ros2_ws/build/my_package/prefix_override:/home/umut_ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.403414] (-) TimerEvent: {}
+[1.410386] (turtlesim) StdoutLine: {'line': b'[ 92%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[1.414477] (turtlesim) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.418991] (turtlesim) CommandEnded: {'returncode': 2}
+[1.503573] (-) TimerEvent: {}
+[1.604259] (-) TimerEvent: {}
+[1.704819] (-) TimerEvent: {}
+[1.721111] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.721744] (my_package) StdoutLine: {'line': b'creating ../../build/my_package/my_package.egg-info\n'}
+[1.722125] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[1.722541] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[1.722802] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[1.722946] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[1.723095] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[1.723297] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.725227] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.726218] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[1.726519] (my_package) StdoutLine: {'line': b'running build\n'}
+[1.726737] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[1.726897] (my_package) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/my_package/build\n'}
+[1.727344] (my_package) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/my_package/build/lib\n'}
+[1.727497] (my_package) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[1.727623] (my_package) StdoutLine: {'line': b'copying my_package/__init__.py -> /home/umut_ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[1.727752] (my_package) StdoutLine: {'line': b'copying my_package/my_node.py -> /home/umut_ubuntu/ros2_ws/build/my_package/build/lib/my_package\n'}
+[1.737383] (my_package) StdoutLine: {'line': b'running install\n'}
+[1.737887] (my_package) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.738136] (my_package) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.738521] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[1.740972] (my_package) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.741431] (my_package) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/umut_ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.741577] (my_package) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/umut_ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[1.741860] (my_package) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc\n'}
+[1.742266] (my_package) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc\n'}
+[1.742624] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[1.743233] (my_package) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/my_package/share/ament_index\n'}
+[1.743489] (my_package) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index\n'}
+[1.743783] (my_package) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[1.743921] (my_package) StdoutLine: {'line': b'copying resource/my_package -> /home/umut_ubuntu/ros2_ws/install/my_package/share/ament_index/resource_index/packages\n'}
+[1.744143] (my_package) StdoutLine: {'line': b'copying package.xml -> /home/umut_ubuntu/ros2_ws/install/my_package/share/my_package\n'}
+[1.744281] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.745753] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/umut_ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[1.747186] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[1.773464] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/umut_ubuntu/ros2_ws/install/my_package/lib/my_package\n'}
+[1.773769] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/my_package/install.log'\n"}
+[1.804947] (-) TimerEvent: {}
+[1.809774] (my_package) CommandEnded: {'returncode': 0}
+[1.905226] (-) TimerEvent: {}
+[1.921057] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[2.005385] (-) TimerEvent: {}
+[2.050344] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 2}
+[2.061260] (-) EventReactorShutdown: {}

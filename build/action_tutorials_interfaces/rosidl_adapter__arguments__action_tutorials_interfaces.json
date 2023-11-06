@@ -1,0 +1,6 @@
+{
+  "package_name": "action_tutorials_interfaces",
+  "non_idl_tuples": [
+    "/home/umut_ubuntu/ros2_ws/src/action_tutorials_interfaces:action/Fibonacci.action"
+  ]
+}

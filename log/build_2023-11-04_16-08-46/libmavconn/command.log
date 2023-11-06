@@ -1,0 +1,2 @@
+Invoking command in '/home/umut_ubuntu/ros2_ws/build/libmavconn': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umut_ubuntu/ros2_ws/src/mavros-ros2/libmavconn -DCMAKE_INSTALL_PREFIX=/home/umut_ubuntu/ros2_ws/install/libmavconn
+Invoked command in '/home/umut_ubuntu/ros2_ws/build/libmavconn' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umut_ubuntu/ros2_ws/src/mavros-ros2/libmavconn -DCMAKE_INSTALL_PREFIX=/home/umut_ubuntu/ros2_ws/install/libmavconn

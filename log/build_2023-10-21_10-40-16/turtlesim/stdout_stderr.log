@@ -1,0 +1,74 @@
+[ 10%] Built target turtlesim__rosidl_generator_c
+[ 11%] Built target turtlesim__cpp
+[ 11%] Built target ament_cmake_python_copy_turtlesim
+[ 21%] Built target turtlesim__rosidl_typesupport_c
+[ 38%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 51%] Built target turtlesim__rosidl_typesupport_cpp
+[ 61%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target turtle_teleop_key
+[ 75%] Built target mimic
+[ 77%] Built target draw_square
+[ 77%] Built target turtlesim
+[ 83%] Built target turtlesim_node
+[ 84%] Built target turtlesim__py
+[ 85%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o[0m
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_set_pen_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:174: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o] Error 1
+gmake[2]: *** Bitmemiş işler için bekliyor....
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:132: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o] Error 1
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_kill_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/msg/_color_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:118: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o] Error 1
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_spawn_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:90: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o] Error 1
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+[01m[K/home/umut_ubuntu/ros2_ws/build/turtlesim/rosidl_generator_py/turtlesim/msg/_pose_s.c:11:10:[m[K [01;31m[Kfatal error: [m[Knumpy/ndarrayobject.h: Böyle bir dosya ya da dizin yok
+   11 | #include [01;31m[K"numpy/ndarrayobject.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:76: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:146: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:160: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o] Error 1
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_generator_py.dir/build.make:104: CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:483: CMakeFiles/turtlesim__rosidl_generator_py.dir/all] Error 2
+gmake[1]: *** Bitmemiş işler için bekliyor....
+running egg_info
+writing turtlesim.egg-info/PKG-INFO
+writing dependency_links to turtlesim.egg-info/dependency_links.txt
+writing top-level names to turtlesim.egg-info/top_level.txt
+reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[ 92%] Built target ament_cmake_python_build_turtlesim_egg
+gmake: *** [Makefile:146: all] Error 2

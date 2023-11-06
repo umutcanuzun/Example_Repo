@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/umut_ubuntu/ros2_ws/install/tutorial_interfaces/include/**",
+        "/home/umut_ubuntu/ros2_ws/install/turtlesim/include/**",
+        "/home/umut_ubuntu/ros2_ws/install/more_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/umut_ubuntu/ros2_ws/src/more_interfaces/include/**",
+        "/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

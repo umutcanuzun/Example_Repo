@@ -1,0 +1,6 @@
+Invoking command in '/home/umut_ubuntu/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umut_ubuntu/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/umut_ubuntu/ros2_ws/install/tutorial_interfaces
+Invoked command in '/home/umut_ubuntu/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/umut_ubuntu/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/umut_ubuntu/ros2_ws/install/tutorial_interfaces
+Invoking command in '/home/umut_ubuntu/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/umut_ubuntu/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+Invoked command in '/home/umut_ubuntu/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/umut_ubuntu/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+Invoking command in '/home/umut_ubuntu/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/umut_ubuntu/ros2_ws/build/tutorial_interfaces
+Invoked command in '/home/umut_ubuntu/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/umut_ubuntu/ros2_ws/build/tutorial_interfaces

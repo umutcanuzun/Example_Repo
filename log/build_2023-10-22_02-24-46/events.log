@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000526] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000595] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000648] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000713] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000766] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.098627] (-) TimerEvent: {}
+[0.199073] (-) TimerEvent: {}
+[0.299486] (-) TimerEvent: {}
+[0.399888] (-) TimerEvent: {}
+[0.500419] (-) TimerEvent: {}
+[0.600887] (-) TimerEvent: {}
+[0.701305] (-) TimerEvent: {}
+[0.801710] (-) TimerEvent: {}
+[0.902113] (-) TimerEvent: {}
+[1.002537] (-) TimerEvent: {}
+[1.042429] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/umut_ubuntu/ros2_ws/build/py_srvcli/build', 'install', '--record', '/home/umut_ubuntu/ros2_ws/build/py_srvcli/install.log', '--single-version-externally-managed'], 'cwd': '/home/umut_ubuntu/ros2_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'tr:en', 'USER': 'umut_ubuntu', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/umut_ubuntu', 'OLDPWD': '/home/umut_ubuntu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'SYSTEMD_EXEC_PID': '1881', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'umut_ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'umut_ubuntu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/umut_ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Umut-UbuntuPC:@/tmp/.ICE-unix/1645,unix/Umut-UbuntuPC:/tmp/.ICE-unix/1645', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c11c662c_de3d_475a_9542_ebbc7f301ba6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'tr_TR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RHG5C2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.468', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/umut_ubuntu/ros2_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/umut_ubuntu/ros2_ws/build/py_srvcli/prefix_override:/home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.102927] (-) TimerEvent: {}
+[1.203301] (-) TimerEvent: {}
+[1.303703] (-) TimerEvent: {}
+[1.389221] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.389821] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[1.390130] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[1.390396] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[1.390743] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[1.390982] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[1.391218] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[1.391373] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.393323] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.394004] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.394284] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[1.394457] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.394780] (py_srvcli) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/py_srvcli/build\n'}
+[1.394971] (py_srvcli) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib\n'}
+[1.395126] (py_srvcli) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.395349] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.395507] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_f\xc4\xb1nction.py -> /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.395667] (py_srvcli) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.395890] (py_srvcli) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.396037] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.396184] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[1.396326] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.397626] (py_srvcli) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[1.397885] (py_srvcli) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[1.398125] (py_srvcli) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_f\xc4\xb1nction.py -> /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[1.398342] (py_srvcli) StdoutLine: {'line': b'copying /home/umut_ubuntu/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli\n'}
+[1.398674] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc\n'}
+[1.399281] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_f\xc4\xb1nction.py to client_member_f\xc4\xb1nction.cpython-310.pyc\n'}
+[1.399948] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc\n'}
+[1.400279] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.400806] (py_srvcli) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_srvcli/share/ament_index\n'}
+[1.401002] (py_srvcli) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[1.401161] (py_srvcli) StdoutLine: {'line': b'creating /home/umut_ubuntu/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.401415] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/umut_ubuntu/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.401571] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/umut_ubuntu/ros2_ws/install/py_srvcli/share/py_srvcli\n'}
+[1.401714] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.403290] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info\n'}
+[1.403790] (-) TimerEvent: {}
+[1.404574] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.430300] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.430610] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/umut_ubuntu/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[1.430908] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/py_srvcli/install.log'\n"}
+[1.464688] (py_srvcli) CommandEnded: {'returncode': 0}
+[1.503951] (-) TimerEvent: {}
+[1.579189] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.580258] (-) EventReactorShutdown: {}

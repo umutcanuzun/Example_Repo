@@ -1,0 +1,149 @@
+[1.028s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/umut_ubuntu/ros2_ws']
+[1.028s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/umut_ubuntu/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd452398ac0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fd4527e9780>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fd4527e9780>>)
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.090s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.090s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/umut_ubuntu/ros2_ws'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'ignore'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'ignore_ament_install'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extensions ['colcon_pkg']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'colcon_pkg'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extensions ['colcon_meta']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'colcon_meta'
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extensions ['ros']
+[1.090s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'ros'
+[1.106s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extensions ['cmake', 'python']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'cmake'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'python'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extensions ['python_setup_py']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws) by extension 'python_setup_py'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/build) by extension 'ignore'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/build) ignored
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/install) by extension 'ignore'
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/install) ignored
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.107s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/log) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/log) ignored
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'ignore_ament_install'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extensions ['colcon_pkg']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'colcon_pkg'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extensions ['colcon_meta']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'colcon_meta'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extensions ['ros']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'ros'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extensions ['cmake', 'python']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'cmake'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'python'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extensions ['python_setup_py']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src) by extension 'python_setup_py'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extensions ['ignore', 'ignore_ament_install']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extension 'ignore'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extension 'ignore_ament_install'
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extensions ['colcon_pkg']
+[1.108s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extension 'colcon_pkg'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extensions ['colcon_meta']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extension 'colcon_meta'
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extensions ['ros']
+[1.109s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/mavros_nodes) by extension 'ros'
+[1.112s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/mavros_nodes' with type 'ros.ament_python' and name 'mavros_nodes'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extension 'ignore'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extension 'ignore_ament_install'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extensions ['colcon_pkg']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extension 'colcon_pkg'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extensions ['colcon_meta']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extension 'colcon_meta'
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extensions ['ros']
+[1.113s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/more_interfaces) by extension 'ros'
+[1.114s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/more_interfaces' with type 'ros.ament_cmake' and name 'more_interfaces'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extension 'ignore'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extension 'ignore_ament_install'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extensions ['colcon_pkg']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extension 'colcon_pkg'
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extensions ['colcon_meta']
+[1.114s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extension 'colcon_meta'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extensions ['ros']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/my_package) by extension 'ros'
+[1.115s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/my_package' with type 'ros.ament_python' and name 'my_package'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_pubsub) by extension 'ros'
+[1.116s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extension 'ignore'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extension 'ignore_ament_install'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extensions ['colcon_pkg']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extension 'colcon_pkg'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extensions ['colcon_meta']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extension 'colcon_meta'
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extensions ['ros']
+[1.117s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/py_srvcli) by extension 'ros'
+[1.118s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extensions ['ignore', 'ignore_ament_install']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extension 'ignore'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extension 'ignore_ament_install'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extensions ['colcon_pkg']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extension 'colcon_pkg'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extensions ['colcon_meta']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extension 'colcon_meta'
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extensions ['ros']
+[1.118s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/python_parameters) by extension 'ros'
+[1.119s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/python_parameters' with type 'ros.ament_python' and name 'python_parameters'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'ignore'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'colcon_meta'
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extensions ['ros']
+[1.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'ros'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'cmake'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'python'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials) by extension 'python_setup_py'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/ros_tutorials) ignored
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[1.120s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/rospy_tutorials) ignored
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ignore'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['ros']
+[1.121s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ros'
+[1.122s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extension 'ignore_ament_install'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extensions ['colcon_pkg']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extension 'colcon_pkg'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extensions ['colcon_meta']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extension 'colcon_meta'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extensions ['ros']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces) by extension 'ros'
+[1.123s] DEBUG:colcon.colcon_core.package_identification:Package '/home/umut_ubuntu/ros2_ws/src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

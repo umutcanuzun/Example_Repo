@@ -1,0 +1,1 @@
+Invoking command in '/home/umut_ubuntu/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/umut_ubuntu/ros2_ws/build/turtlesim -- -j12 -l12

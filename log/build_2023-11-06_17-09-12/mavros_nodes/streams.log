@@ -1,0 +1,51 @@
+[2.773s] Invoking command in '/home/umut_ubuntu/ros2_ws/src/mavros_nodes': PYTHONPATH=/home/umut_ubuntu/ros2_ws/build/mavros_nodes/prefix_override:/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/mavros_nodes build --build-base /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build install --record /home/umut_ubuntu/ros2_ws/build/mavros_nodes/install.log --single-version-externally-managed
+[3.150s] running egg_info
+[3.151s] writing ../../build/mavros_nodes/mavros_nodes.egg-info/PKG-INFO
+[3.151s] writing dependency_links to ../../build/mavros_nodes/mavros_nodes.egg-info/dependency_links.txt
+[3.152s] writing entry points to ../../build/mavros_nodes/mavros_nodes.egg-info/entry_points.txt
+[3.152s] writing requirements to ../../build/mavros_nodes/mavros_nodes.egg-info/requires.txt
+[3.152s] writing top-level names to ../../build/mavros_nodes/mavros_nodes.egg-info/top_level.txt
+[3.153s] reading manifest file '../../build/mavros_nodes/mavros_nodes.egg-info/SOURCES.txt'
+[3.155s] writing manifest file '../../build/mavros_nodes/mavros_nodes.egg-info/SOURCES.txt'
+[3.156s] running build
+[3.156s] running build_py
+[3.156s] copying mavros_nodes/twist.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.157s] copying mavros_nodes/magneticfield.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.157s] copying mavros_nodes/battery_state.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.158s] copying mavros_nodes/imu_data.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.159s] copying mavros_nodes/__init__.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.159s] copying mavros_nodes/state.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.160s] copying mavros_nodes/pressure.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.160s] copying mavros_nodes/pose.py -> /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes
+[3.160s] running install
+[3.160s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.161s]   warnings.warn(
+[3.161s] running install_lib
+[3.164s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/twist.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.164s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/magneticfield.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.164s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/battery_state.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.164s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/imu_data.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.164s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/__init__.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.165s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/state.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.165s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/pressure.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.165s] copying /home/umut_ubuntu/ros2_ws/build/mavros_nodes/build/lib/mavros_nodes/pose.py -> /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes
+[3.167s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/twist.py to twist.cpython-310.pyc
+[3.167s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/magneticfield.py to magneticfield.cpython-310.pyc
+[3.168s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/battery_state.py to battery_state.cpython-310.pyc
+[3.170s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/imu_data.py to imu_data.cpython-310.pyc
+[3.170s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/__init__.py to __init__.cpython-310.pyc
+[3.170s]   File "/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/imu_data.py", line 20
+[3.170s]     self.get_logger().info(f"Linear Acceleration: x={msg.linear_acceleration.x}, y={msg.linear_acceleration.y}, 
+[3.171s]                            ^
+[3.171s] SyntaxError: unterminated string literal (detected at line 20)
+[3.171s] 
+[3.171s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/state.py to state.cpython-310.pyc
+[3.171s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/pressure.py to pressure.cpython-310.pyc
+[3.171s] byte-compiling /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes/pose.py to pose.cpython-310.pyc
+[3.172s] running install_data
+[3.174s] running install_egg_info
+[3.177s] removing '/home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[3.178s] Copying ../../build/mavros_nodes/mavros_nodes.egg-info to /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/python3.10/site-packages/mavros_nodes-0.0.0-py3.10.egg-info
+[3.180s] running install_scripts
+[3.218s] Installing test_node script to /home/umut_ubuntu/ros2_ws/install/mavros_nodes/lib/mavros_nodes
+[3.219s] writing list of installed files to '/home/umut_ubuntu/ros2_ws/build/mavros_nodes/install.log'
